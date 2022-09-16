@@ -1,0 +1,116 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style id="mainCss" type="text/css">
+    @media screen and (max-width: 500px) {
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .main-image {
+        margin: 25px;
+        position: relative;
+        width: 100%;
+      }
+
+
+
+      .main-text {
+        margin: 0 20px;
+      }
+    }
+
+    h2 {
+      font-family: 'Roboto';
+    }
+
+
+
+    @media screen and (min-width: 501px) {
+      .container {
+        /* height: 100%; */
+      }
+
+
+      .main-image {}
+
+      .main-text {
+        margin: 50px;
+        width: 70%;
+      }
+
+      svg {
+        width: 100%;
+      }
+
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+    p {
+        padding-top: 15px;
+        padding-bottom: 15px ;
+    }
+
+    .message {
+      padding-block: 15px;
+
+      line-height: 24px;
+      margin-top: -2px;
+      text-align: left;
+      font-family: roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      color: rgba(0, 0, 0, 1);
+    }
+
+    .horizontal-line {
+      border: 1px solid #c7c0c0a3
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+
+    <div class="main-text">
+      <div>
+        <p></p>
+        <p></p>
+        <span style="font-family: roboto; ">{{ page.date-show }}</span>
+        <h2 style="text-align: center;">{{page.title}}</h2>
+
+        <p style="font-family: roboto; font-style:italic ; font-size: 16; color: dimgray; text-align: center;">
+          "{{page.verse}}" <br /> <b>{{page.verse-ref}}</b>
+        <p>
+
+        <div class="message">
+          <div>
+            <span>{{ content }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</body>
+
+</html>
