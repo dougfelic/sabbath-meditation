@@ -5,7 +5,7 @@ date:   2022-09-15 16:00:00 -0300
 date-show: 16 de Setembro
 verse: Deixem que os pequeninos venham a Mim e não os impeçam, porque dos tais é o Reino de Deus.
 verse-ref: Lucas 18:16
-categories: jekyll update
+categories: meditation pt
 ---
 
 
