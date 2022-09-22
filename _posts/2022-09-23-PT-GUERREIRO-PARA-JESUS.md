@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "GUERREIRO PARA JESUS"
-date:   2022-09-23 03:00:00 -0300
-date-show: 22 de septiembre
+date:   2022-09-22 03:00:00 -0300
+date-show: 23 de septiembre
 verse: Assim como o Pai Me enviou, Eu também envio vocês.
 verse-ref: João 20:21
 categories: meditation pt
